@@ -9,6 +9,7 @@ import { updateBlockchain } from "../store/actions/user";
 import "swiper/css";
 
 import '../styles/globals.css'
+import '../styles/web3modal-overrides.css'
 import Header from '../components/Header/Header'
 import Footer from "../components/Footer/Footer";
 import Head from "next/head";

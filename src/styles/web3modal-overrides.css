@@ -1,0 +1,29 @@
+/* Ensure the modal card is layered above its overlay lightbox. */
+.web3modal-modal-card {
+    position: relative;
+    z-index: 1000;
+  }
+  
+  /* Ensure the correct MetaMask logo size */
+  .web3modal-provider-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .web3modal-provider-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Ensure the connection button does not overlap modals. */
+  .swiper-button-prev,
+  .swiper-button-next {
+    z-index: 10 !important;
+  }
+  
+  /* Ensure the lightbox is below the modal card. */
+  .web3modal-modal-lightbox {
+    z-index: 999 !important;
+  }
+  
